@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background: url("assets/bg.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -15,12 +19,22 @@ h1, a, p{
     color: #e0e0e0;
 }
 
+
+#title {
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+#my-name {
+    display: inline;
+}
+
 #title:hover #my-name {
     display: none;
 }
 
 #title:hover #address {
-    display: block;
+    display: inline;
 }
 
 #title #address  {
