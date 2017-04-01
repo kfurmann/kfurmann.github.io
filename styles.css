@@ -1,0 +1,68 @@
+body {
+    background: url("assets/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+    margin: 0;
+
+    font-family: 'lato';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, a, p{
+    color: #e0e0e0;
+}
+
+#title:hover #my-name {
+    display: none;
+}
+
+#title:hover #address {
+    display: block;
+}
+
+#title #address  {
+    display: none;
+}
+
+#main {
+    height: 100vh;
+}
+
+#main .content {
+    position: absolute;
+    bottom: 0;
+    padding: 4rem 7rem;
+
+    width: 100%;
+
+    text-align: right;
+}
+
+#main .content p {
+    margin: 0;
+}
+
+#main .content img {
+    vertical-align: middle;
+    margin: auto 1rem;
+    border-radius: 1rem;
+}
+
+img:hover {
+    -webkit-box-shadow: -1px 2px 16px 0px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 2px 16px 0px rgba(0,0,0,1);
+    box-shadow: -1px 2px 16px 0px rgba(0,0,0,1);
+}
+
+#main-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
